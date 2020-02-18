@@ -124,7 +124,7 @@ div.row.gap {
     text-align: left;
     margin-right: 30px;
     line-height: 6px;
-    margin-top: -10px;
+    margin-top: -8px;
     margin-left: -50px;
 }
 h4 {
@@ -179,7 +179,6 @@ footer {
     background-color: #949494;
     border: 1px solid black;
     margin-top: 20px;
-    color: white;
     padding-right: 10px;
     padding-left: 10px;
 }
