@@ -55,13 +55,12 @@
 				<form id="cms">
 					<div class="form-group">
 						<label for="title">Title:</label>
-						<input placeholder="Post Title" type="text" class="form-control" id="title">
+						<input placeholder="Username" type="text" class="form-control" id="title">
 						<br />
-						<label for="body">Body:</label>
-						<textarea placeholder="Post Body" class="form-control" rows="10" id="body"></textarea>
+						
 						<div class="form-group">
 							<label for="category">Select Group:</label>
-							<select id="author">
+							<select id="group">
   						</select>
 						</div>
 						<br />
@@ -71,6 +70,8 @@
 			</div>
 		</div>
     </div>
+
+  
 
     <!-- Footer -->
     <div class="push"></div>
@@ -91,6 +92,16 @@
     <script>$(document).ready(function(){
         $('.sidenav').sidenav();
       });
+
+      $(document).ready(function(){
+    $('select').formSelect();
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('select').formSelect();
+  });
           </script>
 	
 	

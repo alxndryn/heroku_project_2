@@ -36,4 +36,15 @@ app.post("/api/groups", function(req, res) {
     });
   });
 
+
+  app.delete("/api/groups/:id", function(req, res) {
+    db.Group.destroy({
+      where: {
+        id: req.params.id
+      }
+    }).then(function(dbGroup) {
+      res.json(dbGroup);
+    });
+  });
+
 };
